@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itaharinamunacollege</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Aboutus.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="content.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <section class="COURSE">
+        <h1><b>Courses We Offer</b></h1>
+        <p> Discover your passions and explore your interests at Itahari Namuna College (INC). We offer a range of
+            undergraduate and graduate programs across a variety of disciplines in the Itahari area. we have programs
+            (BCA, BSW & BHM) that is perfect for you. Join some of the brightest students from around Nepal at one of
+            the country’s top colleges. Invest in an education that will help you build a successful future.
+        </p>
+        <div class="row">
+
+            <div class="course-col">
+                <h3>Bachelor in Computer Application(BCA)</h3>
+                <p>Bachelorin computer Application(BCA) is a four year degree run by TU,Nepal. The main focus of the
+                    coures
+                    is towards the application development. Student can seek their career as a IT professional after the
+                    completion of the course. Apart from that syudent can also work in different area like design and
+                    multimedia, network security, system administration and so on.</p>
+            </div>
+            <div class="course-col">
+                <h3>Bachelor in Hotel Management(BHM)</h3>
+                <p>This course cover the fundamental of hotel ,food and Beverage production , hospitality, office and
+                    housekeeping along with familiarizaing the student with the multi dimention of hospitality
+                    industry.<br>BHM course is both theoretical and practical in nature. From this this is the one of
+                    the
+                    field whose scope is growing extensively day by day. BHM is very dazzing, colourfull and challenging
+                    career.</p>
+            </div>
+            <div class="course-col">
+                <h3>Bachelor in Social Work(BSW)</h3>
+                <p>This course is degined with the purpose of giving theoritical and conceptual based knowledge to the
+                    student. To build up qualified and dedicated human resourse. BSW is the leading faculty in terms of
+                    number of subject offered and the number of department it have. BSW is the course offered by TU
+                    which
+                    operate most of the social sector of the nation.</p>
+            </div>
+            <div class="course-col">
+                <h3>Bachelor in Business Studies(BBS)</h3>
+                <p>BBS is the four year degree program conducted by TU and FOM. It is an annual exam based program.
+                    The
+                    main objective of BBS is to develop student into dynamic manager having ability to handle
+                    responsibility in every sector.</p>
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our college Philosophy</h1>
+        <p>At Itahari Namuna college, every child, regardless of their background or prior achievements, is given ample
+            opportunities to collaborate with their peers and evolve. Also, teachers use various resources to help them
+            be capable of contributing towards the betterment of the society.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="banner.jpeg">
+                <div class="layer">
+                    <h3>College Building</h3>
+
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="book.png">
+                <div class="layer">
+                    <h3>Library</h3>
+
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="Lap-Pic2.jpg">
+                <div class="layer">
+                    <h3>Computer Lab</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Itahari namuna college is run by a team of young & enthusiastic scholars committed
+            to providing excellent educational opportunities. It is now a full-fledged, co-educational seat of learning
+            with all necessary amenities such as spacious classrooms, library, lab & sports. There is co-operative
+            spirit and strong commitment to teach and learn in the institution.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+        <p>Made<i class="fa fa-heart-o"></i>by Namuna college student</p>
+
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

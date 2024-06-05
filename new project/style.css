@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width:100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(banner.jpeg);
+    background-image: linear-gradient(rgba(33, 152, 156, 0.7),rgba(4, 9, 30, 0.7)),url(banner.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -34,13 +34,13 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 18px;
 }
 .nav-links ul li::after{
     content:'';
     width:0%;
     height: 2px;
-    background: green;
+    background: rgb(223, 49, 92);
     display: block;
     margin: auto;
     transition:0.5s;
@@ -77,66 +77,18 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid green;
-    background: green;
+    border: 1px solid rgb(223, 49, 92);
+    background: rgb(223, 49, 92);
     transition: 1s;
 }
 nav .fa{
     display: none;
     
 }
-@media(max-width:700px)
-{
-    .text-box h1{
-        font-size: 20px;
-    } 
-    .nav-links ul li{
-        display:block;
-    }
-    .nav-links{
-        position: absolute;
-        background: green;
-        height: 100vh;
-        width: 200px;
-        top:0;
-        right: 0;
-        text-align: left;
-        z-index: 2;
-
-    }
-}
 nav .fa{
     display: none;
 }
-@media(max-width:700px){
-    .text-box h1{
-        font-size: 20px;
-    }
-    .nav-links ul li{
-        display: block;
-    }
-    .nav-links{
-        position: absolute;
-        background: green;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right:-200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-    nav .fa{
-        display: block;
-        color: #fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-    .nav-links ul{
-        padding: 30px;
-    }
-}
+
 .COURSE{
     width: 80%;
     margin: auto;
@@ -178,11 +130,7 @@ h3{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0.2);
 
 }
-@media(max-width:700px){
-    .row{
-        flex-direction: column;
-    }
-}
+
 .campus{
     width: 80%;
     margin: auto;
@@ -210,7 +158,7 @@ h3{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(0, 226, 120, 0.7);
+    background: rgba(117, 228, 222, 0.7);
 }
 .layer h3{
     width: 100%;
@@ -285,12 +233,7 @@ h3{
     color:green;
 
 }
-@media(max-width:700px){
-    .testimonial-col img{
-        margin-left: 0px;
-        margin-right: 15px;
-    }
-}
+
 .cta{
     margin: 100px auto;
     width: 80%;
@@ -306,11 +249,7 @@ h3{
     margin-bottom: 40px;
     padding: 0;
 }
-@media(max-width:700px){
-    .cta h1{
-        font-size: 24px;
-    }
-}
+
 .footer{
     width: 100%;
     text-align: center;
@@ -334,7 +273,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(abbout.jpg);
+    background-image: linear-gradient #5FA5AA,#5FA5AA,url(abbout.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -426,11 +365,7 @@ h3{
 .comment-form button{
     margin: 10px 0;
 }
-@media(max-width:700px){
-    .sub-header h1{
-        font-size: 24px;
-    }
-}
+
 .location{
     width: 80%;
     margin: auto;
@@ -465,7 +400,7 @@ h3{
 .Contact-col div h5{
     font-size: 20px;
     margin-bottom: 5px;
-    color: #555;
+    color: #35302d;
     font-weight: 400;
 }
 .Contact-col input, .Contact-col textarea{
